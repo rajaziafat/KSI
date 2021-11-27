@@ -1,0 +1,39 @@
+/* font family */
+
+@font-face {
+    font-family: GeneralSans-Bold;
+    src: url("./assets/font-family/GeneralSans-Bold.otf");
+}
+
+@font-face {
+    font-family: GeneralSans-Light;
+    src: url("./assets/font-family/GeneralSans-Light.otf");
+}
+
+@font-face {
+    font-family:GeneralSans-Medium;
+    src: url("./assets/font-family/GeneralSans-Medium.otf");
+}
+
+@font-face {
+    font-family:GeneralSans-Regular;
+    src: url("./assets/font-family/GeneralSans-Regular.otf");
+}
+
+@font-face {
+    font-family:GeneralSans-Semibold;
+    src: url("./assets/font-family/GeneralSans-Semibold.otf");
+}
+
+
+body{
+    background: #181818 ;
+}
+
+@media screen and (max-width: 400px) {
+    .bgimg{
+        background-image: url("./assets/images/Rectangle\ 13.png");
+        background-repeat: no-repeat;
+        
+    }
+  }
